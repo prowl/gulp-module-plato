@@ -4,8 +4,8 @@ var gulp = require('gulp');
 
 var paths = {
   root: __dirname,
-  soften: ['**/*.js', '**/*.json', '!./node_modules/**'],
-  src: ['**/*.js', '!./node_modules/**'],
+  soften: ['**/*.js', '**/*.json', '!./node_modules/**', '!./docs/**'],
+  src: ['**/*.js', '!./node_modules/**', '!./docs/**'],
   specs: ['specs/**/*.js'],
   statements_threshold: 90,
   functions_threshold: 100,

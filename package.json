@@ -1,6 +1,6 @@
 {
   "name": "gulp-module-plato",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp module integration for plato",
   "main": "lib/index.js",
   "scripts": {
