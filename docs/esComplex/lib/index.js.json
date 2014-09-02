@@ -1,0 +1,204 @@
+{
+  "aggregate": {
+    "sloc": {
+      "logical": 18,
+      "physical": 42
+    },
+    "cyclomatic": 1,
+    "halstead": {
+      "operators": {
+        "distinct": 8,
+        "total": 47,
+        "identifiers": [
+          "var",
+          "=",
+          "()",
+          ".",
+          "function",
+          "return",
+          "{}",
+          ":"
+        ]
+      },
+      "operands": {
+        "distinct": 36,
+        "total": 59,
+        "identifiers": [
+          "\"use strict\"",
+          "fs",
+          "\"fs\"",
+          "require",
+          "path",
+          "\"path\"",
+          "jsHintPath",
+          "__dirname",
+          "\"../.jshintrc\"",
+          "resolve",
+          "plato",
+          "\"gulp-plato\"",
+          "gulp",
+          null,
+          "config",
+          "platoSetup",
+          "gulpRef",
+          "conf",
+          "\"plato\"",
+          0,
+          "platoTask",
+          "task",
+          "jsHintContents",
+          "readFileSync",
+          "jsHintOptions",
+          "JSON",
+          "parse",
+          "outPath",
+          "root",
+          "\"docs/complexity\"",
+          "<anonymous>",
+          "jshint",
+          "src",
+          "pipe",
+          "module",
+          "exports"
+        ]
+      },
+      "length": 106,
+      "vocabulary": 44,
+      "difficulty": 6.555555555555555,
+      "volume": 578.6997515755535,
+      "effort": 3793.6983714397393,
+      "bugs": 0.19289991719185115,
+      "time": 210.76102063554106
+    },
+    "params": 2,
+    "line": 1,
+    "cyclomaticDensity": 5.555555555555555
+  },
+  "functions": [
+    {
+      "name": "platoSetup",
+      "sloc": {
+        "logical": 3,
+        "physical": 6
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 3,
+          "total": 4,
+          "identifiers": [
+            "=",
+            "()",
+            "."
+          ]
+        },
+        "operands": {
+          "distinct": 8,
+          "total": 11,
+          "identifiers": [
+            "gulpRef",
+            "conf",
+            "gulp",
+            "config",
+            "\"plato\"",
+            0,
+            "platoTask",
+            "task"
+          ]
+        },
+        "length": 15,
+        "vocabulary": 11,
+        "difficulty": 2.0625,
+        "volume": 51.89147427955947,
+        "effort": 107.0261657015914,
+        "bugs": 0.01729715809318649,
+        "time": 5.945898094532855
+      },
+      "params": 2,
+      "line": 18,
+      "cyclomaticDensity": 33.33333333333333
+    },
+    {
+      "name": "platoTask",
+      "sloc": {
+        "logical": 5,
+        "physical": 13
+      },
+      "cyclomatic": 1,
+      "halstead": {
+        "operators": {
+          "distinct": 7,
+          "total": 22,
+          "identifiers": [
+            "var",
+            "=",
+            "()",
+            ".",
+            "return",
+            "{}",
+            ":"
+          ]
+        },
+        "operands": {
+          "distinct": 19,
+          "total": 24,
+          "identifiers": [
+            "jsHintContents",
+            "jsHintPath",
+            "fs",
+            "readFileSync",
+            "jsHintOptions",
+            "JSON",
+            "parse",
+            "outPath",
+            "config",
+            "root",
+            "\"docs/complexity\"",
+            "path",
+            "resolve",
+            "<anonymous>",
+            "jshint",
+            "plato",
+            "src",
+            "gulp",
+            "pipe"
+          ]
+        },
+        "length": 46,
+        "vocabulary": 26,
+        "difficulty": 4.421052631578947,
+        "volume": 216.22022703449025,
+        "effort": 955.9210037314305,
+        "bugs": 0.07207340901149675,
+        "time": 53.10672242952391
+      },
+      "params": 0,
+      "line": 28,
+      "cyclomaticDensity": 20
+    }
+  ],
+  "dependencies": [
+    {
+      "line": 3,
+      "path": "fs",
+      "type": "CommonJS"
+    },
+    {
+      "line": 4,
+      "path": "path",
+      "type": "CommonJS"
+    },
+    {
+      "line": 6,
+      "path": "gulp-plato",
+      "type": "CommonJS"
+    }
+  ],
+  "maintainability": 74.31537800582008,
+  "params": 1,
+  "meta": {
+    "analysis": "gulp-escomplex",
+    "analysisVersion": "1.0.0",
+    "fileName": "lib/index.js"
+  }
+}
